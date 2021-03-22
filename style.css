@@ -38,6 +38,7 @@ header{
 
 .navbar .container-fluid{
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -68,7 +69,9 @@ header{
 }
 
 .nav-get-link:hover{
-    text-decoration: underline;
+    text-decoration: none;
+    background-color: rgb(229, 226, 226);
+    color: red;
 }
 
 .solution {
@@ -119,6 +122,13 @@ header{
     padding: 15px 20px;
     border-radius: 5px;
 }
+
+.solution-link:hover{
+    background-color: rgb(206, 203, 203);
+    color: red;
+    text-decoration: none;
+}
+
 
 .solution-extra-info{
     padding-top: 20px;
@@ -332,7 +342,9 @@ header{
 }
 
 .things-box-link:hover{
-    color: white;
+    color: red;
+    text-decoration: none;
+    background-color: white;
 }
 
 .percentage{
@@ -564,7 +576,9 @@ header{
 }
 
 .trial-footer-link:hover{
-    color: white;
+    color: #5465D4;
+    text-decoration: none;
+    background-color: white;
 }
 
 .trial-footer-link2{
@@ -577,7 +591,9 @@ header{
 }
 
 .trial-footer-link2:hover{
-    color: white;
+    color: red;
+    background-color: white;
+    text-decoration: none;
 }
 
 .trial-box-price{
@@ -648,7 +664,9 @@ header{
 }
 
 .problem-page-link:hover{
-    color: white;
+    color: red;
+    background-color: rgb(211, 208, 208);
+    text-decoration: none;
 }
 
 .footer{
